@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 250px;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#createButton {
+    background-color: #28a745;
+}
+
+#createButton:hover {
+    background-color: #1f8435;
+}
+
+#deleteButton {
+    background-color: #dc3545;
+}
+
+#deleteButton:hover {
+    background-color: #c82333;
+}
+
+#retrieveButton {
+    background-color: #ffc107;
+}
+
+#retrieveButton:hover {
+    background-color: #e0a800;
+}
